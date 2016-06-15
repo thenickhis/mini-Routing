@@ -69,7 +69,7 @@ angular.module('miniRouting', ['ui.router']);
         settingsCtrl.js
         settingsTmpl.html
 ```
-* Note that each feature has it's own controller and template (products also has it's own service). Once you're done making the folders and files above, be sure to include all your JAVASCRIPT files in your index.html page as scripts. (Note that html files do not need to be injected. We will inject them as templates later on.)
+* Note that each feature has it's own controller and template (products also has its own service). Once you're done making the folders and files above, be sure to include all your JAVASCRIPT files in your index.html page as scripts. (Note that html files do not need to be injected. We will inject them as templates later on.)
 * Head over to productService.js and add this to the file:
 ```javascript
 angular.module('miniRouting').service('productService', function(){
